@@ -23,7 +23,7 @@ public class FrogSimulation
 			hops++;
 			if(distance<0)
 				return false;
-			else if(distance >= goalDIstance)
+			else if(distance >= goalDistance)
 				return true;
 		}
 		return false;
